@@ -373,6 +373,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 		<script src="script.js"></script>
-	
-
-</div></body></html>
+  </div>
+</body>
+</html>
