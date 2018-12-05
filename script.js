@@ -48,6 +48,11 @@ $(document).ready(function() {
     scrollToLocation(event, 'a[name="raffleticketanchor"]');
   });
 
+  $('li.kryptotab a.nav-link').click(function(event) {
+    event.preventDefault();
+    window.location = '/krypto.php';
+  });
+
   $('input[type="checkbox"]').change(function() {
     var checkboxValues = {};
     $('input[type="checkbox"]').each(function() {
