@@ -60,7 +60,7 @@ function loadChallengeHtml(currentChallengeVar, password) {
     }
   };
 
-  xmlhttp.open("GET", "kryptochecker.php?pass=" + password + "&current=" + currentChallengeVar, true);
+  xmlhttp.open("GET", "kryptochecker.php?pass=" + btoa(password) + "&current=" + currentChallengeVar, true);
   xmlhttp.send();
 }
 
@@ -119,7 +119,7 @@ function puzzlescript() {
     selector: "div.ciphertext .countdown",
     msgPattern: "{days}:{hours}:{minutes}:{seconds}",
     dateStart: new Date(),
-    dateEnd: new Date('December 10, 2018 00:00'),
+    dateEnd: new Date('December 20, 2018 00:00'),
     leadingZeros: true,
     onStart: function() {
     }

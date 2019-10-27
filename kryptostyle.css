@@ -62,8 +62,24 @@ div.hint.hidden span {
   color: #000 !important;
 }
 
+div.hint.hidden a {
+  color: #000;
+}
+
+span.link {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span.link:hover {
+  text-decoration: underline;
+}
+
+
+
 span.highlight {
-  background-color: #FFFFE0;
+  background-color: #EEE8AA;
   padding: 0 2px;
 }
 

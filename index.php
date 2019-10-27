@@ -293,6 +293,17 @@
           <p>Prizes for the raffle are currently:</p>
           <ul>
             <li>
+              <p><b><h5>Grand Prize - Ghost Gunner 2 Milling Machine</h5></b></p>
+              <p style="text-align: center">
+                <a href="thismachinekillsguncontrol.jpg"><img style="max-width: 400px;" src="thismachinekillsguncontrol.jpg"></a>
+              </p>
+              <p>I am happy to announce our raffle grand prize - a Ghost Gunner 2 milling machine donated by the amazing folks at <b>Defense Distributed</b>. If you're on this website, then you should bloody well know who DD is - but in case you don't, know that Defense Distributed is the leading figure in the homebuilt firearms industry, having produced both the Liberator 3D-printed pistol and the Ghost Gunner mill, as well as the <a href="https://defcad.com">DEFCAD</a> file-sharing site.</p>
+              <p>Their <a href="https://ghostgunner.net">Ghost Gunner 2</a> machine is a general purpose mill that will automatically finish an 80% lower - in other words it allows you to manufacture your own guns. Currently it supports the AR-15, AR-10 and 1911 platforms, and I hear that very soon they are releasing support for Polymer80 Glock lowers! The GG2 also supports engraving and pretty much any other activity you want to program in. This machine makes gun control irrelevant.</p>
+              <p>Because DD loves the kommunity so much, not only are they donating the machine, but they are going to apply a custom /k/ branded powder coat - pics coming soon! I can't thank Defense Distributed enough for donating this machine - if any DD employees are browsing /k/ or even participating in the sekret santa event itself, know that you are gods among men.</p>
+              <p>Here's the fine print: we can only ship this machine to US citizens over the age of 21, and residents of New Jersey are not eligible. Sorry NJ bros.</p>
+            </li>
+
+            <li>
               <p><b>Handmade Ammo Crate</b></p>
               <p>
                 <a href="crate.jpg"><img src="crate.jpg"></a>
@@ -309,9 +320,11 @@
               <p>This particular gun was gifted to Big Boss in the Sekret Santa 2017 event. After caring for it over the year, in the spirit of /k/ristmas I have decided to pass it forward to another lucky kommando. Perhaps this is the start of a tradition?</p>
             </li>
             <li>
-              <p><b>European WW2 Survival Kit (Europe only)</b></p>
+              <p><b>European WW3 Survival Kit (Europe only)</b></p>
+              <p>
+                <a href="nbc_suit.jpg"><img src="nbc_suit.jpg"></a>
+              </p>
               <p>This kit will be built around a Norwegian surplus NBC protection suit, and is being donated by a very generous kommando! As our donor is a Eurofriend this kit will be raffled off to other European kommandos, who probably need it more than us Amerifags anyways. If you receive this you are obligated to do a STALKER challenge with it.</p>
-              <p>More details and images to follow!</p>
             </li>
             <li>
               <p><b>Surplus Helicopter</b></p>
@@ -333,6 +346,20 @@
                 <a href="https://kommandostore.com/"><img src="kslogo.png"></a>
               </p>
               <p><a href="https://kommandostore.com/">Kommandostore.com</a> has partnered with the sekret santa event and has donated three $50 gift codes for anything in their shop! This is one of the best shops for surplus out there so whoever gets one of these codes can purchase some badass stuff. My eternal thanks to the Kommandostore for donating this raffle prize!</p>
+            </li>
+            <li>
+              <p><b>$10 Crimson Carvan Gift Code (5)</b></p>
+              <p>
+                <a href="https://www.thecrimsoncaravan.com/"><img src="cclogo.png"></a>
+              </p>
+              <p>We were recently contacted by <a href="https://www.thecrimsoncaravan.com/">the Crimson Caravan</a>, who generously donated five $10 gift codes for anything in the shop! CC has been one of the classic suppliers of the /k/ wasteland - go check out their badass patches and stickers! Thanks very much to the Crimson Caravan for contributing another great prize to the raffle! As you might expect, each code will be raffled off seprately, so there will be five lucky winners.</p>
+            </li>
+            <li>
+              <p><b>Framed Festive Wendigo Art (2)</b></p>
+              <p>
+                <a href="festivehorror2.jpg"><img src="festivehorror2.jpg"></a>
+              </p>
+              <p>Need a good piece of art to hang over your mantle and entertain your Christmas guests and their young children? Here it is! This piece was drawn by the very talented waifu of one of our participants, and we are giving away two framed prints! Wait, are wendigo the type of cryptid that are drawn to representations of themselves? I wouldn't worry about it...</p>
             </li>
           </ul>
           <p>We are soliciting more prizes! If you wish to donate a prize, contact us!</p>
