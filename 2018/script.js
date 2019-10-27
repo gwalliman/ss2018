@@ -50,7 +50,7 @@ $(document).ready(function() {
 
   $('li.kryptotab a.nav-link').click(function(event) {
     event.preventDefault();
-    window.location = 'krypto/krypto.php';
+    window.location = '/krypto/krypto.php';
   });
 
   $('input[type="checkbox"]').change(function() {

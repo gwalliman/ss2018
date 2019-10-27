@@ -27,7 +27,7 @@
 				<li class="nav-item matchtab"><a name="matchanchor"></a><a class="nav-link" href="#k2" data-toggle="tab" role="tab">Matching</a></li>
 				<li class="nav-item grinchrelieftab"><a name="grinchreliefanchor"></a><a class="nav-link" href="#k3" data-toggle="tab">Grinch Relief</a></li>
 				<li class="nav-item raffletab"><a name="raffleanchor"></a><a class="nav-link" href="#k4" data-toggle="tab">Raffle</a></li>
-				<li class="nav-item kryptotab"><a name="kryptoanchor"></a><a class="nav-link" href="krypto/krypto.php" data-toggle="tab">Krypto Challenge</a></li>
+				<li class="nav-item kryptotab"><a name="kryptoanchor"></a><a class="nav-link" href="/krypto/krypto.php" data-toggle="tab">Krypto Challenge</a></li>
 				<li class="nav-item joinuptab"><a name="joinupanchor"></a><a class="nav-link" href="#k5" data-toggle="tab">Join Up</a></li>
 				<li class="nav-item contacttab"><a name="contactanchor"></a><a class="nav-link" href="#k6" data-toggle="tab">Contact</a></li>
 			</ul>
