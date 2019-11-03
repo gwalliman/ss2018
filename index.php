@@ -11,9 +11,9 @@
     
 		<div class="container text-center">
 			<h1 id="page-title">Se/k/ret Santa 2019</h1>
-      <h5 id="page-subtitle">Lean, Mean, Red and Green</h5>
-      <img src="images/bb_banner.png">
-			<div class="jumbotron">
+      <h5 id="page-subtitle"><i>Lean, Mean, Red and Green</i></h5>
+      <img id="header-image" src="images/bb_banner.png">
+			<div id="header-jumbotron" class="jumbotron">
 				<div class="lead">Read the information below to learn how the event will be run.</div>
         <div class="lead">Then, sign up using the <a class="joinuplink" href="#">Join Up</a> tab.</div>
 			</div>
@@ -24,23 +24,19 @@
 				<li class="nav-item scheduletab"><a name="scheduleanchor"></a><a class="nav-link show" href="#k8" role="tab" data-toggle="tab" aria-selected="true">Schedule</a></li>
 				<li class="nav-item tierstab"><a name="tiersanchor"></a><a class="nav-link" href="#k9" data-toggle="tab" role="tab">Tiers</a></li>
 				<li class="nav-item matchtab"><a name="matchanchor"></a><a class="nav-link" href="#k2" data-toggle="tab" role="tab">Matching</a></li>
-				<li class="nav-item legaltab"><a name="legalanchor"></a><a class="nav-link" href="#k11" data-toggle="tab" role="tab">Legal</a></li>
 				<li class="nav-item grinchrelieftab"><a name="grinchreliefanchor"></a><a class="nav-link" href="#k3" data-toggle="tab">Grinch Relief</a></li>
 				<li class="nav-item raffletab"><a name="raffleanchor"></a><a class="nav-link" href="#k4" data-toggle="tab">Raffle</a></li>
-				<li class="nav-item faqtab"><a name="faqanchor"></a><a class="nav-link" href="#k7" role="tab" data-toggle="tab">FAQs</a></li>
-				<li class="nav-item kryptotab"><a name="kryptoanchor"></a><a class="nav-link" href="krypto/krypto.php" data-toggle="tab">Krypto Challenge</a></li>
-				<li class="nav-item patchestab"><a name="patchesanchor"></a><a class="nav-link" href="#k10" data-toggle="tab" role="tab">Patches</a></li>
 				<li class="nav-item joinuptab"><a name="joinupanchor"></a><a class="nav-link" href="#k5" data-toggle="tab">Join Up</a></li>
 				<li class="nav-item contacttab"><a name="contactanchor"></a><a class="nav-link" href="#k6" data-toggle="tab">Contact</a></li>
+				<li class="nav-item faqtab"><a name="faqanchor"></a><a class="nav-link" href="#k7" role="tab" data-toggle="tab">FAQs</a></li>
+				<li class="nav-item legaltab"><a name="legalanchor"></a><a class="nav-link" href="#k11" data-toggle="tab" role="tab">Legal</a></li>
+				<li class="nav-item kryptotab"><a name="kryptoanchor"></a><a class="nav-link" href="krypto/krypto.php" data-toggle="tab">Krypto Challenge</a></li>
+				<li class="nav-item patchtab"><a name="patchanchor"></a><a class="nav-link" href="#k10" data-toggle="tab" role="tab">Patches</a></li>
 			</ul>
 			<div class="tab-content ">
         <!-- Battle Plan Tab -->
 				<div class="tab-pane active show" id="k1" role="tabpanel">
 					<h3>Operational Checklist</h3>
-          <div class="alert alert-secondary">
-            <div>This is the <u>expected</u> checklist for an individual participant.</div>
-            <div>Use it keep track of what you have done, what you need to do, and what to expect for the event!</div>
-          </div>
           <form>
             <div>
               <input id="1" type="checkbox">
@@ -83,7 +79,7 @@
 				<div class="tab-pane show" id="k8" role="tabpanel">
           <!-- Schedule Tab -->
 					<h3>Operational Schedule (Subject to change)</h3>
-          <table class="table table-striped">
+          <table id="schedule_table" class="table table-striped">
             <thead>
               <tr>
                 <th scope="col">Batch</th>
@@ -211,7 +207,7 @@
           </p>
           <p>/k/ristmas is a busy time. In past events, the biggest reason we have seen people get grinched is because their santa put off buying the gift, got busy, forgot, or had something come up. It's not malicious, but it results in someone getting grinched nonetheless. This is particularly bad when it results in a participant waiting for several weeks or months, unsure if their gift will ever arrive.</p>
           <p>To this end, in 2019 we have implemented a strict two-week policy. <b>You must ship, and send proof of shipping to Big Boss, within two weeks of receiving your match. <span class="redtext">Failing to do this within the two week deadline will result in you being marked as a grinch.</b> The idea is to get your match their gift quickly, or failing that, to allow Se/k/ret Santa staff to quickly get a participant grinch relief, so they are not stuck in limbo.</p>
-          <p>The majority of gifts in 2018 - even the intricate ones - were built and shipped within a two week period. I know you can do it komrade. Furthermore, Big Boss is a reasonable man. If you fear you won't be able to m ake the two-week deadline, <a href="#" class="contactlink">email me</a> as soon as possible.</p>
+          <p>The majority of gifts in 2018 - even the intricate ones - were built and shipped within a two week period. I know you can do it komrade. Furthermore, Big Boss is a reasonable man. If you fear you won't be able to make the two-week deadline, <a href="#" class="contactlink">email me</a> as soon as possible.</p>
           <p></p>
 
           <p>
@@ -247,6 +243,57 @@
           <div>If you really do have a cool idea for a gift based on stuff you already have (i.e. you aren't simply wanting to offload your old surplus) then email <a href="mailto:bigboss@sekretsanta.com">bigboss@sekretsanta.com</a> and we can try to match you with someone who will appreciate and treasure your gift. Please understand that matching based on a specific gift isn't always easy.</div>
           <p></p>
 				</div>
+
+        <!-- Tiers Tab -->
+        <div class="tab-pane" role="tabpanel" id="k9">
+          <h3>Tiers</h3>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Tier</th>
+                <th scope="col">Dollar Range</th>
+                <th scope="col">Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Paper/k/lip</th>
+                <td>$0</td>
+                <td>No gifts, just cards, letters and drawings</td>
+              </tr>
+              <tr>
+                <th scope="row">Torch</th>
+                <td>$5 - $19</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Dragoon</th>
+                <td>$20 - $49</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Dynamo</th>
+                <td>$50 - $99</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Neptune</th>
+                <td>$100 - $150</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Barbarossa</th>
+                <td>$150 - $250</td>
+                <td>The Barbarossa tier is limited either to participants from previous years, or to grinch relief volunteers.</td>
+              </tr>
+              <tr>
+                <th scope="row">Overlord</th>
+                <td>$250+</td>
+                <td>The Overlord tier is limited either to participants from previous years, or to grinch relief volunteers.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <!-- Matching Tab -->
 				<div class="tab-pane" role="tabpanel" id="k2">
@@ -300,6 +347,37 @@
           <p>You will be informed whether either of these restrictions apply to you when we send your match email.</p>
 				</div>
 
+        <!-- Legal Tab -->
+				<div class="tab-pane" id="k11">
+          <h3>Legal Requirements</h3>
+          <p>All Se/k/ret Santa participants are advised that there are certain national, state and local restrictions around shipping firearms, munitions, alcohol, and other goods. Violating these regulations may lead to serious legal consequences for both the shipper and the recipient.</p>
+          <p><b>All participants are responsible for ensuring their gift complies with local, state and federal laws, and that their recipient is legally allowed to possess all items in their gift.</b></p>
+          <p>Here are a few recommendations / points of consideration:</p>
+          <ul>
+            <li>
+            <b>Firearms cannot be shipped directly to your target!</b> If you wish to ship a firearm, you will need to transfer the firearm via an <b>FFL</b>. Yes, there are some specific exceptions to this, but in general, I suggest using an FFL.
+            <br/><br/>
+            </li>
+            <li>
+            Ammunition <b>cannot be shipped via USPS.</b> As of this writing, both <b>UPS</b> and <b>FedEx</b> allow shipping ammunition, but <b>they must be notified</b> and the package must be marked with an <b>ORM-D</b> label.
+            <br/><br/>
+            </li>
+            <li>
+            US residents: in general, <b>DO NOT SHIP FIREARMS, AMMUNITION, EXPLOSIVES, OR ANY OTHER MUNITIONS OUT OF THE UNITED STATES.</b> This is considered an export and is a federal crime! Receiving or possessing these items may also be a crime for the recipient!
+            <br/><br/>
+            </li>
+            <li>
+            There are restrictions on shipping alcohol and other drugs both interstate and internationally. You are responsible for ensuring compliance with these restrictions. Don't ship alcohol or drugs to your target without thoroughly checking these restrictions.
+            <br/><br/>
+            </li>
+            <li>
+            You are responsible for ensuring that your target is allowed to receive all items in your gift. This includes ensuring they are not prohibitied from possessing firearms and ammunition. It also includes ensuring they are allowed to receive and possess alcohol, tobacco, or any other restricted goods. <b>Don't be responsible for getting your target in trouble!</b>
+            <br/><br/>
+            </li>
+          </ul>
+          <p>NOTHING ON THIS PAGE SHOULD BE CONSIDERED LEGAL ADVICE AND WE MAKE NO GUARANTEES AS TO ITS ACCURACY. IF YOU HAVE ANY LEGAL QUESTIONS, CONSULT APPROPRIATE LEGAL RESOURCES, OR A LAWYER.</p>
+        </div>
+
         <!-- Grinch Relief Tab -->
 				<div class="tab-pane" id="k3">
           <h3>Grinch Relief</h3>
@@ -337,13 +415,48 @@
           <p>Prizes for the raffle are currently:</p>
           <ul>
             <li>
-              <p><b>Handmade Ammo Crate</b></p>
+              <p><b>Beshtiya Prize Packs</b></p>
               <p>
-                <a href="crate.jpg"><img src="images/crate.jpg"></a>
+                <a href="https://beshtiya.eu/"><img src="images/beshtiya.jpg"></a>
               </p>
-              <p>Patterned after the wooden crates that 7.62x54r tins are stored in, this crate is handmade by Big Boss and is great for storing ammo, cleaning supplies, or anything else /k/ related.</p>
-              <p>Note: pictured crate is from 2017, the 2018 model will look even better!</p>
+              <p>Our based friends at <a href="https://beshtiya.eu/">Beshtiya.eu</a> have set up some amazing prizes for our participants this year. If you guys are into awesome /k/ themed patches and apparal, I'd check them out, especially since there's enough prizes here that you have a good chance of winning one!</p>
+              <p>The prize packs are:</p>
+              <ul>
+                <li><b>First Prize:</b> 1 shirt and 5 patches of your choosing, and a sticker pack</li>
+                <li><b>Second Prize:</b> 10 patches of your choosing and a sticker pack</li>
+                <li><b>Third Prize:</b> 5 patches of your choosing and a sticker pack</li>
+                <li><b>40 Additional Prizes:</b> 20% off anything at <a href="https://beshtiya.eu">beshtiya.eu</a>! We will be sending 40 participants one code each.</li>
+              </ul>
+              <p>Thanks tons to the folks at Beshtiya for their generous donation!</p>
             </li>
+            <li>
+              <p><b>Crimson Carvan Gift Codes</b></p>
+              <p>
+                <a href="https://www.thecrimsoncaravan.com/"><img src="images/cclogo.png"></a>
+              </p>
+              <p>The good men at <a href="https://www.thecrimsoncaravan.com/">the Crimson Caravan</a> are back for teh second year in a row with some gift codes for our lucky participants! CC continues to be one of the classic suppliers for the /k/ wasteland - go check out their badass patches and stickers!</p>
+              <p>The prizes are:</p>
+              <ul>
+                <li><b>One $20</b> discount code.</li>
+                <li><b>Five $5</b> discount code.</li>
+              </ul>
+              <p>Thanks very much to the Crimson Caravan for contributing another great prize to the raffle! Ech code will be raffled off seprately, so there will be six winners total.</p>
+            </li>
+            <li>
+              <p><b>Sons of Liberty Patches (10)</b></p>
+              <p>
+                <a href="images/sonsofliberty.jpg"><img src="images/sonsofliberty.jpg"></a>
+              </p>
+              <p>A newly made patch for 2019, comissioned by Big Boss! This is a PVC patch with velcro backing. Ownership of this patch grants membership to the Sons of Liberty and 10 lucky kommandos will earn this prize for free. If you're not one of them, you can still <a href="#" class="patchlink">purchase</a> this patch to join the fight against the Patriots.</p>
+            </li>
+            <li>
+              <p><b>Sekret Santa 2018 Patches (10)</b></p>
+              <p>
+                <a href="images/patch.PNG"><img src="images/patch.PNG"></a>
+              </p>
+              <p>Spread /k/ristmas cheer and violence with our 2018 patch, featuring /K/laus the Remover himself. 10 lucky participants will receive one for free - if you aren't one of these 10, you can also <a href="#" class="patchlink">purchase</a> one!</p>
+            </li>
+
           </ul>
           <p>We are soliciting more prizes! If you wish to donate a prize, contact us!</p>
           <a name="raffleticketanchor"></a>
@@ -351,7 +464,7 @@
           <h3>Raffle Entries:</h3>
           <p>Entries may be earned in the following way:</p>
           <ul>
-            <li><b>1</b> entry for signing up for Se/k/ret Santa 2018</li>
+            <li><b>1</b> entry for signing up for Se/k/ret Santa 2019</li>
             <li><div><b>3</b> entries for <a href="#" class="contactlink">emailing us</a> proof that you have <i>shipped</i> your gift</div><div>(this doubles to <b>6</b> entries if you ship within two weeks of receiving your match!)</div></li>
             <li><b>3</b> entries for <a href="#" class="contactlink">emailing us</a> proof that you have <i>received</i> your gift.</li>
             <li><div><b>1</b> entry for posting a photo of your gift in the threads (<b>1</b> entry per photo, max <b>10</b>).</div><div>You must <a href="#" class="contactlink">email us</a> proof - include screenshots!</div></li>
@@ -364,12 +477,44 @@
             <div><b>Note that you will not be eligible for the raffle if you have not provided us with proof that you have sent out a gift!</b></div>
           </div>
 				</div>
+
+        <!-- Patches Tab -->
+				<div class="tab-pane" id="k10">
+					<h3>Se/k/ret Santa 2019 Patch Guide</h3>
+          <p>Here are the patches that will be available either as prizes or to purchase for the 2019 event.</p>
+          <hr />
+          <div>
+            <p><h5>"Sons of Liberty" Patch - $8.00</h5></p>
+            <p><img src="images/sonsofliberty.jpg" /></p>
+            <p><i>I will triumph over the Patriots, and liberate us all. And we will become the "Sons of Liberty"!</i></p>
+            <p>Purchase this patch and become an exon of history. You don't think this is /k/ristmas related? Liberty is a gift for all seasons!</p>
+            <p>2"x3", PVC, velcro-backed. Current image will be replaced with an actual image of the patch, once I have one. <b>All proceeds will go to grinch relief.</b></p>
+            <p>To purchase, please <a href="#" class="contactlink">contact me</a> to order and arrange payment.</p>
+          </div>
+          <hr />
+          <div>
+            <p><h5>"Se/k/ret Santa 2018" - $6.00</h5></p>
+            <p><img src="images/patch.PNG" /></p>
+            <p>Spread /k/ristmas cheer and violence with our 2018 patch, featuring /K/laus the Remover himself. This is our 2018 patch, and we still have a handful left. Grab them while you can!</p>
+            <p>2"x3", fabric. <b>All proceeds will go to grinch relief.</b></p>
+            <p>To purchase, please <a href="#" class="contactlink">contact me</a> to order and arrange payment.</p>
+          </div>
+          <hr />
+          <div>
+            <p><h5>"Grinches Get Stitches"</h5></p>
+            <p><img src="images/grinch_relief_patch.png" /></p>
+            <p>A brand new patch for 2019. This patch can only be earned by participating in grinch relief, so volunteer now!</p>
+            <p>3.5" radius, fabric, velcro-backed. Current image will be replaced with an actual image of the patch, once I have one.</p>
+          </div>
+        </div>
+
+        <!-- Join Up Tab -->
 				<div class="tab-pane" id="k5">
-          <!-- Join Up Tab -->
           <iframe class="joinupform" src="https://docs.google.com/forms/d/e/1FAIpQLSf0pdwIeNkCuSprDaXb2MgtEcF-7j5IDOPcxUTyRC3Sdv8fsQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 				</div>
+
+        <!-- Contact Big Boss Tab -->
 				<div class="tab-pane" id="k6">
-          <!-- Contact Big Boss Tab -->
           <img src="images/bb_codec.png">
           <div class="alert alert-secondary text-center">
             <p>You can contact us by Codec at <b>140.85</b>,<br> or by email at <b><a href="mailto:bigboss@sekretsanta.com">bigboss@sekretsanta.com</a></b></p>
@@ -377,10 +522,10 @@
 				</div>
 			</div>
 		</div>
-    <div class="text-center">
+    <!--<div class="text-center">
       <a href="#">< Prev</a>
       <a href="#">Next ></a>
-    </div>
+    </div>-->
 		<hr>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

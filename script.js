@@ -8,6 +8,11 @@ $(document).ready(function() {
     scrollToLocation(event, 'a[name="matchanchor"]');
   });
 
+  $('a.patchlink').click(function(event) {
+    clickPatch();
+    scrollToLocation(event, 'a[name="patchanchor"]');
+  });
+
   $('a.faqlink').click(function(event) {
     clickFAQ();
     scrollToLocation(event, 'a[name="faqanchor"]');
@@ -79,6 +84,10 @@ var clickFAQ = function() {
 
 var clickMatch = function() {
   $('li.matchtab a').trigger('click');
+}
+
+var clickPatch = function() {
+  $('li.patchtab a').trigger('click');
 }
 
 var clickGrinchRelief = function() {
