@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Se/k/ret Santa 2018</title>
+  <title>Se/k/ret Santa 2019</title>
 </head>
 <body>
   <div style="position:relative;">
@@ -9,11 +9,9 @@
 		<link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Se/k/ret Santa 2018</title>
-	
-	
 		<div class="container text-center">
-			<h1 id="page-title">Se/k/ret Santa 2018</h1>
+			<h1 id="page-title">Se/k/ret Santa 2019</h1>
+      <h5 id="page-subtitle">Lean, Mean, Red and Green</h5>
       <img src="images/bb_banner.png">
 			<div class="jumbotron">
 				<div class="lead">Read the information below to learn how the event will be run.</div>
@@ -23,15 +21,14 @@
 		<div id="exTab2" class="container">	
 			<ul class="nav nav-tabs" role="tablist">
 				<li class="nav-item battleplantab"><a name="battleplananchor"></a><a class="nav-link active show" href="#k1" role="tab" data-toggle="tab" aria-selected="true">Battle Plan</a></li>
-				<li class="nav-item faqtab"><a name="faqanchor"></a><a class="nav-link" href="#k7" role="tab" data-toggle="tab">FAQs</a></li>
 				<li class="nav-item matchtab"><a name="matchanchor"></a><a class="nav-link" href="#k2" data-toggle="tab" role="tab">Matching</a></li>
 				<li class="nav-item grinchrelieftab"><a name="grinchreliefanchor"></a><a class="nav-link" href="#k3" data-toggle="tab">Grinch Relief</a></li>
 				<li class="nav-item raffletab"><a name="raffleanchor"></a><a class="nav-link" href="#k4" data-toggle="tab">Raffle</a></li>
+				<li class="nav-item faqtab"><a name="faqanchor"></a><a class="nav-link" href="#k7" role="tab" data-toggle="tab">FAQs</a></li>
 				<li class="nav-item kryptotab"><a name="kryptoanchor"></a><a class="nav-link" href="krypto/krypto.php" data-toggle="tab">Krypto Challenge</a></li>
 				<li class="nav-item joinuptab"><a name="joinupanchor"></a><a class="nav-link" href="#k5" data-toggle="tab">Join Up</a></li>
 				<li class="nav-item contacttab"><a name="contactanchor"></a><a class="nav-link" href="#k6" data-toggle="tab">Contact</a></li>
 			</ul>
-
 			<div class="tab-content ">
         <!-- Battle Plan Tab -->
 				<div class="tab-pane active show" id="k1" role="tabpanel">
@@ -47,11 +44,11 @@
             </div>
             <div>
               <input id="2" type="checkbox" value="asdf">
-              <label>Receive your <a href="#" class="matchlink">match</a> via email within two weeks</label>
+              <label>When matching closes, receive your <a href="#" class="matchlink">match</a> via email.</label>
             </div>
             <div>
               <input id="3" type="checkbox" value="asdf">
-              <label>Purchase and assemble your gift. Please send within two weeks of receiving your match.</label>
+              <label>Purchase and assemble your gift. <b>You are <span class="redtext">required</span> to ship (and provide proof of shipping) <span class="redtext">within two weeks. </span></b><a class="faqlink" href="#">Why?</a></label>
             </div>
             <div>
               <input id="4" type="checkbox" value="asdf">
@@ -59,19 +56,19 @@
             </div>
             <div>
               <input id="5" type="checkbox" value="asdf">
-              <label>Receive your gift! (Feel free to <a href="#" class="contactlink">mail Big Boss</a> letting him know it has arrived)</label>
+              <label>Receive your gift! (Please <a href="#" class="contactlink">mail Big Boss</a> and let me know your package has arrived)</label>
             </div>
             <div>
               <input id="6" type="checkbox" value="asdf">
-              <label>Open your gift on December 25th</label>
+              <label>Help out your /k/omrades by providing <a href="#" class="grinchrelieflink">grinch relief</a> and earn a grinch relief patch!</label>
             </div>
             <div>
               <input id="7" type="checkbox" value="asdf">
-              <label>Post photos of your gift in the se/k/ret santa threads</label>
+              <label>Open your gift on December 25th</label>
             </div>
             <div>
               <input id="8" type="checkbox" value="asdf">
-              <label>Help out your /k/omrades by providing <a href="#" class="grinchrelieflink">grinch relief</a></label>
+              <label>Post photos of your gift in the se/k/ret santa threads</label>
             </div>
             <div>
               <input id="9" type="checkbox" value="asdf">
@@ -200,6 +197,15 @@
         <div class="tab-pane" id="k7">
           <!-- FAQ Tab -->
           <h3>FAQs</h3>
+          <a name="faqanchor"></a>
+          <p>
+          <b>Why are we requiring you to ship within two weeks?</b>
+          </p>
+          <p>/k/ristmas is a busy time. In past events, the biggest reason we have seen people get grinched is because their santa put off buying the gift, got busy, forgot, or had something come up. It's not malicious, but it results in someone getting grinched nonetheless. This is particularly bad when it results in a participant waiting for several weeks or months, unsure if their gift will ever arrive.</p>
+          <p>To this end, in 2019 we have implemented a strict two-week policy. <b>You must ship, and send proof of shipping to Big Boss, within two weeks of receiving your match. <span class="redtext">Failing to do this within the two week deadline will result in you being marked as a grinch.</b> The idea is to get your match their gift quickly, or failing that, to allow Se/k/ret Santa staff to quickly get a participant grinch relief, so they are not stuck in limbo.</p>
+          <p>The majority of gifts in 2018 - even the intricate ones - were built and shipped within a two week period. I know you can do it komrade. Furthermore, Big Boss is a reasonable man. If you fear you won't be able to m ake the two-week deadline, <a href="#" class="contactlink">email me</a> as soon as possible.</p>
+          <p></p>
+
           <p>
           <b>How do I put together a good gift?</b>
           </p><div>This anon poster described it better than I ever could. See below:</div>

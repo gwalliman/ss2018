@@ -8,6 +8,12 @@ $(document).ready(function() {
     scrollToLocation(event, 'a[name="matchanchor"]');
   });
 
+  $('a.faqlink').click(function(event) {
+    clickFAQ();
+    scrollToLocation(event, 'a[name="faqanchor"]');
+  });
+
+
   $('a.grinchrelieflink').click(function(event) {
     clickGrinchRelief();
     scrollToLocation(event, 'a[name="grinchreliefanchor"]');

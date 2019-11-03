@@ -46,6 +46,10 @@ div#k4 img {
   max-width: 300px;
 }
 
+.redtext {
+  color: red;
+}
+
 @media(min-width: 850px) {
   body {
     max-width: 800px;
