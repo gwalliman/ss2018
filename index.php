@@ -510,7 +510,7 @@
 
         <!-- Join Up Tab -->
 				<div class="tab-pane" id="k5">
-          <iframe class="joinupform" src="https://docs.google.com/forms/d/e/1FAIpQLSf0pdwIeNkCuSprDaXb2MgtEcF-7j5IDOPcxUTyRC3Sdv8fsQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          <iframe class="joinupform" src="https://docs.google.com/forms/d/1YVDxgpcTyWm7ojl1BS6f5V_TJexhKCtKum4s4aU_zgg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 				</div>
 
         <!-- Contact Big Boss Tab -->
