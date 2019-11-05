@@ -68,6 +68,13 @@ div#k10 img {
   color: red;
 }
 
+.tripcode {
+  color: #117743;
+  font-weight: 400!important;
+  background-color: #d6daf0;
+  padding: 3px;
+}
+
 @media(min-width: 850px) {
   body {
     max-width: 800px;

@@ -211,6 +211,17 @@
           <p></p>
 
           <p>
+            <b>Who are the se/k/ret santa staff?</b>
+          </p>
+          <div>For 2019 we have two staff members running the event:</div>
+          <ul>
+            <li><span class="tripcode">Big Boss !!jq3a8iFwU/6</span> - event coordinator and organizer</li>
+            <li><span class="tripcode">Santa'sLittleHelper !!P3upp74N0Cv</span> - assistant with threads and matching</li>
+          </ul>
+          <img src="images/tips.png">
+          <p></p>
+
+          <p>
             <b>How do I put together a good gift?</b>
           </p>
           <div>This anon poster described it better than I ever could. See below:</div>
@@ -434,13 +445,13 @@
               <p>
                 <a href="https://www.thecrimsoncaravan.com/"><img src="images/cclogo.png"></a>
               </p>
-              <p>The good men at <a href="https://www.thecrimsoncaravan.com/">the Crimson Caravan</a> are back for teh second year in a row with some gift codes for our lucky participants! CC continues to be one of the classic suppliers for the /k/ wasteland - go check out their badass patches and stickers!</p>
+              <p>The good men at <a href="https://www.thecrimsoncaravan.com/">the Crimson Caravan</a> are back for the second year in a row with some gift codes for our lucky participants! CC continues to be one of the classic suppliers for the /k/ wasteland - go check out their badass patches and stickers!</p>
               <p>The prizes are:</p>
               <ul>
                 <li><b>One $20</b> discount code.</li>
                 <li><b>Five $5</b> discount code.</li>
               </ul>
-              <p>Thanks very much to the Crimson Caravan for contributing another great prize to the raffle! Ech code will be raffled off seprately, so there will be six winners total.</p>
+              <p>Thanks very much to the Crimson Caravan for contributing another great prize to the raffle! Each code will be raffled off seprately, so there will be six winners total.</p>
             </li>
             <li>
               <p><b>Sons of Liberty Patches (10)</b></p>
