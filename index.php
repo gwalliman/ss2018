@@ -406,7 +406,7 @@
           <b>All grinch relief volunteers who provide proof of sending a relief package will receive a large number of <a href="#" class="raffleticketlink">raffle entries!</a></b>
           <b>Volunteers will also receive a special patch, available only to our valued Grinch Relief /k/orps!</b>
           <p class="text-center">
-            <img src="images/grinch_relief_patch.png" />
+            <img src="images/Grinch.png" />
           </p>
           <hr>
           <h3>Grinch Relief Process</h3>

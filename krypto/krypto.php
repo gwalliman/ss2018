@@ -3,14 +3,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="kryptostyle.css">
-  <title>Se/k/ret Santa 2018 - Krypto Challenge</title>
+  <title>Se/k/ret Santa 2019 - Krypto Challenge</title>
 </head>
 <body>
   <div class="container text-center">
-    <h1 id="page-title"><a href="/">Se/k/ret Santa 2018</a></h1>
+    <h1 id="page-title"><a href="/">Se/k/ret Santa 2019</a></h1>
     <h2>Krypto Challenge</h2>
     <div class="jumbotron">
-      <div class="lead">Welcome to the Krypto Challenge 2018.</div>
+      <div class="lead">Welcome to the Krypto Challenge 201<strike>8</strike>9.</div>
       <div>The true meaning of /k/ristmas will be revealed if you can complete all the challenges!</div>
       <div>Cooperate and collaborate with other kommandos, but don't spoil it for others!</div>
       <br />
