@@ -426,6 +426,14 @@
           <p>Prizes for the raffle are currently:</p>
           <ul>
             <li>
+              <p><b>"Ave Nex Alea" Engraved AR-15 Lower from Defense Distributed</b></p>
+              <p><img src="images/ar15_lower.jpg" /></p>
+              <p>We are happy to partner with <a href="https://defdist.org/">Defense Distributed</a> / <a href="https://ghostgunner.net">Ghost Gunner</a> for the second year in a row!</p>
+              <p>Due to the recent <a href="https://ghostgunner.net/product/ghost-gunner-3-deposit/">Ghost Gunner 3</a> launch they aren't able to arrange a machine giveaway, so instead they are offering an AR-15 lower engraved with the holy words and symbols of the /k/ube. This engraving will be performed on a Ghost Gunner using the <a href="https://ghostwriter.serverrack.net/">Ghostwriter</a> software!</p>
+              <p><i>Image shown is the Ghostwriter preview - actual image will be updated once the lower has been engraved.</i></p>
+              <p>Major thanks to our friends at DD for continuing to support the /k/ommunity. To support them and the extraordinary work they do for American gun owners, considering joining their <a href="https://ddlegio.com">Second Amendment Fraternity LEGIO (ddlegio.com)</a> or buying their products at <a href="https://ghostgunner.net">ghostgunner.net</a>.</p>
+            </li>
+            <li>
               <p><b>Beshtiya Prize Packs</b></p>
               <p>
                 <a href="https://beshtiya.eu/"><img src="images/beshtiya.jpg"></a>
